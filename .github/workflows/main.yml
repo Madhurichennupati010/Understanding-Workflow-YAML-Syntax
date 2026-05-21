@@ -27,3 +27,5 @@ jobs:
         with:
           name: java-build
           path: target/*.jar
+      - name: Print Success Message
+        run: echo "Build completed successfully!"
